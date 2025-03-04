@@ -1,0 +1,146 @@
+img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    margin: 0%;
+}
+
+
+#game_interface{
+    
+    width: 70%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin-left: 17%;
+    margin-top: 20%;
+}
+
+#game_buttons{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: flex-end;
+    margin-bottom: 5%;
+}
+
+#game_buttons button{
+    width: 80%;
+    height: 35px;
+    margin-bottom: 5%;
+    font-size: 20px;
+    background-color: #4390e9;
+    border: none;
+    color: white;
+    border-radius: 33px;
+    cursor: pointer;
+    text-align: left;
+}
+
+#game_buttons button:hover{
+    background-color: yellow;
+    color: blue;
+}
+
+#new_game_background{
+    width: 100%;
+    background-color:#4390e9 ;
+    height: 300px;
+    font-size: 12px;
+    color: white;
+}
+
+.text{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#header{
+    font-size:15px;
+    font-weight: bold;
+}
+
+#survival{
+    height: 70px;
+    background-color: #0875f1;
+    font-size: 10px;
+}
+
+#freedom{
+    height: 70px;
+    background-color: #0875f1;
+    font-size: 10px;
+}
+
+#hardcore{
+    height: 70px;
+    background-color: #0875f1;
+    font-size: 10px;
+}
+
+#survival:hover{
+    background-color: yellow;
+    color: blue;
+}
+
+#freedom:hover{
+    background-color: yellow;
+    color: blue;
+}
+
+#hardcore:hover{
+    background-color: yellow;
+    color: blue;
+}
+
+
+#game_img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    margin: 0%;
+}
+
+#game_body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pause{
+    width: 500px;
+    height: 400px;
+    background-color: #0875f1;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+#pause p{
+    font-size: 35px;
+    color: white;
+    margin-left: 5%;
+    font-family: sans-serif;
+}
+
+#pause button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 5%;
+    font-size: 20px;
+    background-color: #4390e9;
+    border: none;
+    color: white;
+    border-radius: 33px;
+    cursor: pointer;
+
+}
