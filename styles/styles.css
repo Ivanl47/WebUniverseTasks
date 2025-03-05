@@ -135,12 +135,11 @@ img{
     justify-content: center;
     align-items: center;
     width: 90%;
-    margin-bottom: 5%;
+    margin: 0 auto 5%; /* Center horizontally and add bottom margin */
     font-size: 20px;
     background-color: #4390e9;
     border: none;
     color: white;
     border-radius: 33px;
     cursor: pointer;
-
 }
